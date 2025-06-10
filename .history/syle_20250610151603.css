@@ -1,0 +1,51 @@
+body {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.main-title {
+  font-family: "Savate-regular";
+  text-align: center;
+  font-size: 2em;
+}
+.main_content {
+  max-width: 490px;
+  min-width: 160px;
+  margin: 0 auto;
+}
+
+.app-box__list {
+  margin: 0;
+  list-style: none;
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, 120px);
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  width: 100%;
+}
+
+/* .app-box__item-container, */
+.app-box__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.app-box__item-img {
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.app-box__item-img:hover{
+  transform: scale(0.9);
+  transition: transform 0.2s ease-in-out;
+}
