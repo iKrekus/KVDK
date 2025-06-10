@@ -1,12 +1,3 @@
-@font-face {
-  font-family: "Savate-regular";
-  font-style: normal;
-  font-weight: 400;
-  src: url(./font/savate-regular.woff),
-       url(./font/savate-regular.woff2);
-  font-display: swap;
-}
-
 body {
   background-color: #333333;
   color: #ffffff;
@@ -18,9 +9,9 @@ a {
 }
 
 .main-title {
-  font-family: "Savate-regular";
   text-align: center;
   font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .main_content {
   max-width: 510px;
